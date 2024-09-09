@@ -11,7 +11,7 @@ class Rectangle extends Shape
     }
     void numberOfSides() 
     {
-        System.out.println("I'm Rectangle,Number of Sides = " + side);
+        System.out.println("This is a Rectangle,Number of Sides = " + side);
     }
 }
 class Triangle extends Shape 
@@ -23,7 +23,7 @@ class Triangle extends Shape
     }
     void numberOfSides() 
     {
-        System.out.println("I'm Triangle,Number of Sides = " + side);
+        System.out.println("This is a Triangle,Number of Sides = " + side);
     }
 }
 class Hexagon extends Shape 
@@ -35,7 +35,7 @@ class Hexagon extends Shape
     }
     void numberOfSides() 
     {
-        System.out.println("I'm Hexagon,Number of Sides = " + side);
+        System.out.println("This is a Hexagon,Number of Sides = " + side);
     }
 }
 public class Abstract 
